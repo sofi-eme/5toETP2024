@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF8EA; 
+    color: #594545;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1, h2 {
+    color: #9E7676;
+}
+
+h2 {
+    margin-top: 40px; 
+}
+
+
+button {
+    background-color: #815B5B; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #9E7676; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+
+th, td {
+    border: 1px solid #815B5B; 
+    text-align: center;
+}
+
+th {
+    background-color: #594545; 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #FFF8EA; 
+}
+
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #9E7676; 
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+    font-family: 'Afacad Flux', sans-serif;
+    font-size: 2rem;
+    color: #9E7676; 
+    margin-top: 40px;
+}
+
+
+
+button {
+    background-color: #815B5B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Poppins', sans-serif; 
+}
+
+button {
+    transition: background-color 0.3s ease; /* Animación al cambiar de color */
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #4c3f39; /* Cambia el color al pasar el mouse */
+    transform: translateY(-3px); /* Eleva el botón ligeramente */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+}
+
+
+
+#tablaProductos {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+#tablaProductos th, 
+#tablaProductos td {
+    border: 2px solid #6a6153;
+    padding: 10px;
+    text-align: left;
+}
+
+#tablaProductos th {
+    background-color: #A0937D; 
+    font-size: 18px; 
+}
+
+#tablaProductos td {
+    font-size: 18px; 
+}
